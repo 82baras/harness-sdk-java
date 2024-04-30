@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_82baras_harness_sdk_java_1714438023412-pr-trigger-input-set
+  identifier: Build_82baras_harness_sdk_java_1714438023412prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_82baras_harness_sdk_java_1714438023412
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
